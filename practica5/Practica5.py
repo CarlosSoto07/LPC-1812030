@@ -25,5 +25,6 @@ def Imagenes(url, carpeta):
             im = requests.get(link)
             f.write(im.content)
             print('Guardando Imagen: ',NombreImagen)
-
+            
+#Se crea una carpeta con las imagenes conseguidas 
 Imagenes(url='https://www.rayados.com/fotogalerias/lista', carpeta='ImagenesRayados')
