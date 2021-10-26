@@ -1,21 +1,10 @@
-Write-Host "CarlosSoto"
-
-function Cambiar-PerfilRedActual{ 
-	$perfilRed = Get-NetConnectionProfile 
-	if($perfilRed.NetworkCategory -eq "Public"){ 
-		Write-Host "El perfil actual es público" 
-		$opc = Read-Host -Prompt "Quieres cambiar a privado? [Y] Si [N] No" 
-		if($opc -eq "Y"){ 
-			Set-NetConnectionProfile -Name $perfilRed.Name -NetworkCategory Private 
-			Write-Host "Perfil cambiado" 
-		} 
-	} else{ 
-		Write-Host "El perfil actual es privado" 
-		$opc = Read-Host -Prompt "Quieres cambiar a público? [Y] Si [N] No" 
-		if($opc -eq "Y"){ 
-			Set-NetConnectionProfile -Name $perfilRed.Name -NetworkCategory Public
-			Write-Host "Perfil cambiado" 
-		} 
-	} 
-	Ver-PerfilRedActual 
+$Path = "C:\Users\jesus\docs"
+"{0,10} {1,-24} {2,-2}" -f `
+" Size", "Last Accessed", "File Name "
+Foreach ($file in Get-Childitem $Path -recurse -force)
+{If ($file.extension -eq ".txt")
+    {
+    "{0,10} {1,-24} {2,-2}" -f `
+    $file.length, $file.LastAccessTime, $file.fullname
+    }
 }
