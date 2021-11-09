@@ -1,0 +1,83 @@
+ib.adnxs.com
+    ----------------------------------------
+    Nombre de registro  . : ib.adnxs.com
+    Tipo de registro  . . : 5
+    Período de vida . . . : 22
+    Longitud de datos . . : 8
+    Sección . . . . . . . : respuesta
+    Registro CNAME. . . . : g.geogslb.com
+login.microsoftonline.com
+    ----------------------------------------
+    Nombre de registro  . : login.microsoftonline.com
+    Tipo de registro  . . : 5
+    Período de vida . . . : 35
+    Longitud de datos . . : 8
+    Sección . . . . . . . : respuesta
+    Registro CNAME. . . . : a.privatelink.msidentity.com
+
+
+    Nombre de registro  . : a.privatelink.msidentity.com
+    Tipo de registro  . . : 5
+    Período de vida . . . : 35
+    Longitud de datos . . : 8
+    Sección . . . . . . . : respuesta
+    Registro CNAME. . . . : prda.aadg.msidentity.com
+
+
+    Nombre de registro  . : prda.aadg.msidentity.com
+    Tipo de registro  . . : 5
+    Período de vida . . . : 35
+    Longitud de datos . . : 8
+    Sección . . . . . . . : respuesta
+    Registro CNAME. . . . : www.tm.a.prd.aadg.akadns.net
+
+
+    Nombre de registro  . : www.tm.a.prd.aadg.akadns.net
+    Tipo de registro  . . : 1
+    Período de vida . . . : 35
+    Longitud de datos . . : 4
+    Sección . . . . . . . : respuesta
+    Un registro (host). . : 20.190.152.22
+
+    tps11049.doubleverify.com
+    ----------------------------------------
+    Nombre de registro  . : tps11049.doubleverify.com
+    Tipo de registro  . . : 5
+    Período de vida . . . : 9
+    Longitud de datos . . : 8
+    Sección . . . . . . . : respuesta
+    Registro CNAME. . . . : cacp-hlb.doubleverify.com
+
+
+    Nombre de registro  . : cacp-hlb.doubleverify.com
+    Tipo de registro  . . : 5
+    Período de vida . . . : 9
+    Longitud de datos . . : 8
+    Sección . . . . . . . : respuesta
+    Registro CNAME. . . . : cacp-hlb.dvgtm.akadns.net
+
+   dsp.adkernel.com
+    ----------------------------------------
+    Nombre de registro  . : dsp.adkernel.com
+    Tipo de registro  . . : 1
+    Período de vida . . . : 1481
+    Longitud de datos . . : 4
+    Sección . . . . . . . : respuesta
+    Un registro (host). . : 174.137.133.49
+
+    disqus.com
+    ----------------------------------------
+    Nombre de registro  . : disqus.com
+    Tipo de registro  . . : 1
+    Período de vida . . . : 2072
+    Longitud de datos . . : 4
+    Sección . . . . . . . : respuesta
+    Un registro (host). . : 151.101.192.134
+    cdn-0.electrictoolbox.com
+    ----------------------------------------
+    Nombre de registro  . : cdn-0.electrictoolbox.com
+    Tipo de registro  . . : 5
+    Período de vida . . . : 20
+    Longitud de datos . . : 8
+    Sección . . . . . . . : respuesta
+    Registro CNAME. . . . : cdn-0.electrictoolbox.com.cdn.cloudflare.net
